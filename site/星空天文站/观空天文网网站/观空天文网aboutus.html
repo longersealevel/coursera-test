@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<style>
+
+body{ margin:0;}
+img{ display:block;}
+
+
+/*标题部分*/
+
+.bgbox{ width:1280px; margin-left:auto; margin-right:auto; position:relative;}
+.bgboxsmall{ position:absolute; left:0; top:0; width:640px; height:720px; background-color:#999; opacity:0.3;}
+.titlebox{ position:absolute; left:25%; top:10%; margin-top:-50px; margin-left:-50px; }
+.titlebox h1{ font-size:30px; font-family:"方正综艺简体"; color:#FFF; font-weight:normal; }
+.titlebox h2{ margin-left:50px; font-size:18px; font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif; color:#FFF;font-weight:normal; line-height:10px;}
+.titlebox p{ margin-left:-70px; font-size:24px; color:#FFF; font-weight:normal; font-family:"汉仪细等线简"; }
+
+.topicbox{ position:absolute; left:32%; top:35%; margin-top:-50px; margin-left:-50px; }
+.topicbox h1{ font-size:40px; font-family:"方正综艺简体"; color:#FFF; font-weight:normal; margin-left:-20px; margin-top:-20px;margin-left:-85px;}
+.topicbox p{ margin-left:-85px; font-size:14px; color:#FFF; font-weight:normal; font-family:"汉仪细等线简";line-height:30px;}
+
+.timebox{ position:absolute; left:43%; top:20%; color:#FFF;font-family:"方正综艺简体"; font-size:24px; line-height:80px; margin-left:6px;}
+.timebox .point{ font-size:18px; width:30px; height:30px; background-color:rgba(255,255,255,0.5) ; border-radius:50%;}
+
+/*导航部分*/
+/*左边*/
+.navleftbox{ position:absolute; left:150px; top:100px;}
+.navleftbox a{ color:white; font-size:18px; line-height:40px; text-decoration:none; font-family:"汉仪细等线简";font-weight:normal;}
+.navleftbox span{ width:5px; height:15px; border-radius:50%; background-color:white; opacity:0; }
+.navleftbox a:hover{ font-size:24px; color:#F96;} 
+.navleftbox a:hover span{ opacity:1; color:#FFF;}
+.navline{ width:2px; height:720px; background-color:#FFF; position:absolute; left:233px; top:0;}
+.navtopbox .current{font-size:24px; color:#F96;opacity:1}
+/*顶部*/
+.navtopbox{ position:absolute; top:60px; right:60px;}
+.navtopbox a{ color:white; font-size:18px; line-height:40px; text-decoration:none; font-family:"汉仪细等线简";font-weight:normal;}
+.navtopbox a:hover{  color:#F96;}
+
+/*底部链接*/
+.linkbox{ position:absolute;bottom:60px; right:90px;}
+.linkbox a{ color:white;  line-height:30px; text-decoration:none; font-family:"汉仪细等线简";font-weight:normal;}
+.linkbox a:hover{  color:#F96;}
+.linkbox h1{color:#F96; font-size:24px;}
+/*页脚*/
+.footerbg{ width:1280px; height:50px; background-color:#121212; position:absolute; left:0; bottom:0;}
+.footerlink1{ background-color:#333333;}
+.footerlinkbox{ float:right; margin-top:10px; padding-right:40px;}
+.footerlink1{ float:right;margin-left:5px; margin-right:5px; padding-left:10px; padding-right:10px; border-radius:8%; }
+.footerlink1 a{text-decoration:none; color:#FFF; line-height:30px; }
+.footerbg h1{font-size:30px; font-family:"方正综艺简体"; color:#F96; font-weight:normal; float:left; line-height:10px; padding-left:235px;}
+.footerbg span{font-size:20px; font-family:"方正综艺简体"; color:white; font-weight:normal; line-height:10px; }
+.clearfix{ clear:both;}
+.footerlink1:hover{ background-color:#F96;}
+</style>
+<script src="jquery.js"></script>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+<div class="bgbox">
+   
+   <img src="image/280030.jpg">
+  
+   
+   <div class="bgboxsmall"></div>
+   <div class="titlebox">
+      <h1>「星·空」</h1>
+      <h2>SKY</h2> 
+   </div>
+   <div class="topicbox">
+      <h1>关于我们</h1>
+     
+      <p>观空天文网始建于2015年11月3日。<br>是由一个人筹划、建设并维护的完<br>全公益性质的天文网站。经过一个<br>月的日夜奋战，它终于与世人见面，<br>希望它能带领大家遨游浩瀚宇宙。</p>
+   </div>
+   <div class="timebox">2015&nbsp;&nbsp;&nbsp;<span class="point">●</span>&nbsp;&nbsp;&nbsp;<span style=" opacity:0.6">────────────</span><span style="color:#FFF; font-size:14px; font-family:'汉仪细等线简'">初问世</span><br>2016&nbsp;&nbsp;&nbsp;<span class="point">●</span>&nbsp;&nbsp;&nbsp;<span style=" opacity:0.6">────────────</span><span style="color:#FFF; font-size:14px; font-family:'汉仪细等线简'">发展</span><br>2017&nbsp;&nbsp;&nbsp;<span class="point">●</span>&nbsp;&nbsp;&nbsp;<span style=" opacity:0.6">────────────</span><span style="color:#FFF; font-size:14px; font-family:'汉仪细等线简'">发展</span><br>2018&nbsp;&nbsp;&nbsp;<span class="point">●</span>&nbsp;&nbsp;&nbsp;<span style=" opacity:0.6">────────────</span><span style="color:#FFF; font-size:14px; font-family:'汉仪细等线简'">发展</span>
+   </div>
+   
+   
+      <div class="navleftbox">
+      <a href="观空天文网index.html">首页&nbsp;&nbsp;<span style="color:white">◆</span></a><br>
+      <a href="观空天文网news.html">新闻&nbsp;&nbsp;<span>◆</span></a><br>
+      <a href="">天象&nbsp;&nbsp;<span>◆</span></a><br>
+      <a href="">器材&nbsp;&nbsp;<span>◆</span></a><br>
+      <a href="">图库&nbsp;&nbsp;<span>◆</span></a><br>
+      <a href="">交流&nbsp;&nbsp;<span>◆</span></a><br>
+      <a href="">科幻&nbsp;&nbsp;<span>◆</span></a><br>
+      <a href="">探索&nbsp;&nbsp;<span>◆</span></a><br>
+      <a href="">星语&nbsp;&nbsp;<span>◆</span></a><br>
+      <a href="">论坛&nbsp;&nbsp;<span>◆</span></a><br>
+      <a href="">下载&nbsp;&nbsp;<span>◆</span></a><br>
+      </div>
+      <div class="navline"></div>
+      <div class="navtopbox">
+         <a href="观空天文网aboutus.html" class="current">关于我们&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="">社区登录&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="">站内搜索</a>
+      </div>
+      <div class="linkbox">
+         <h1>友情链接:</h1>
+         <p><a href="">星有空间站&nbsp;&nbsp;&nbsp;</a><a href="">大众天文&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="">王宇天文</a><br><a href="">缘星空&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="">观空天文网&nbsp;&nbsp;&nbsp;</a><a href="">外空网</a></p>
+      </div>
+      <div class="footerbg">
+         <h1>星·空/<span>天文网</span></h1>
+         <div class="footerlinkbox">
+            
+            <div class="footerlink1" ><a href="" >找到我们<a></div>
+            <div class="footerlink1"><a href="">联系我们<a></div>
+            <div class="footerlink1"><a href="">f</a></div>
+            <div class="footerlink1"><a href="">t</a></div>
+            <div class="footerlink1"><a href="">v</a></div>
+            <div class="footerlink1"><a href="">来信请寄</a></div>
+             <div class="clearfix"></div>
+         </div>
+         <div class="clearfix"></div>
+      </div>
+</div>
+
+</body>
+</html>
